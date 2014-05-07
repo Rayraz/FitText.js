@@ -1,6 +1,9 @@
 # FitText.js, a jQuery plugin for inflating web type
 FitText makes font-sizes flexible. Use this plugin on your responsive design for ratio-based resizing of your headlines.
 
+## Changes in this Fork
+Added a check for _.debounce or $.debounce, to create a debounced resized() method.
+
 ## How it works
 Here is a simple FitText setup:
 
